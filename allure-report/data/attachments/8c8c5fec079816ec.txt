@@ -1,0 +1,30 @@
+{
+  success: true,
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE5ODcsImVtYWlsIjoicHJhbml0aGlAeWFob28uY29tIiwiaWF0IjoxNzc1MzY2MzczLCJleHAiOjE3NzU5NzExNzN9.yFB6DYTlhatD6qQVCmrlxBY0NhPwWfgp3LCbFA2PfCk',
+  user: { id: 1987, email: 'pranithi@yahoo.com' }
+}
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE5ODcsImVtYWlsIjoicHJhbml0aGlAeWFob28uY29tIiwiaWF0IjoxNzc1MzY2MzczLCJleHAiOjE3NzU5NzExNzN9.yFB6DYTlhatD6qQVCmrlxBY0NhPwWfgp3LCbFA2PfCk
+{
+  success: true,
+  data: [
+    {
+      id: 10875,
+      title: 'testing',
+      description: '',
+      category: 'Conference',
+      venue: 'Home address',
+      city: 'Bangalore',
+      eventDate: '2026-04-05T04:43:00.000Z',
+      price: '101',
+      totalSeats: 20,
+      availableSeats: 11,
+      imageUrl: null,
+      isStatic: false,
+      userId: 1987,
+      createdAt: '2026-03-30T04:43:11.195Z',
+      updatedAt: '2026-04-04T06:38:33.233Z'
+    }
+  ],
+  pagination: { total: 1, page: 1, limit: 20, totalPages: 1 }
+}
+10875
