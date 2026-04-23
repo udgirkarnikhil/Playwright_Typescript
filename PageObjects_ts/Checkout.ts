@@ -15,6 +15,7 @@ export class Checkout
 
 async singlepurchaseOrder(username:string)
 {
+    await this.page.getByText('Buy Now', {exact: true}).waitFor();
     await this.page.getByText('Buy Now').click();
     await expect(this.shippingEmail).toHaveValue(username);
     await this.page.getByPlaceholder('Select Country').pressSequentially('ind', {delay:100});

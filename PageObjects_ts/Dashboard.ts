@@ -23,7 +23,7 @@ async productTitles()
     return allTexts;
 }
 
-async addToCart(allTexts:string[],productcode:any)
+async addToCart(allTexts:any,productcode:any)
 {
     
         for(let i=0; i<allTexts.length; i++){
@@ -35,6 +35,7 @@ async addToCart(allTexts:string[],productcode:any)
 
 async gotoCart()
 {
+    await this.cart.waitFor({ state: 'visible', timeout: 50000 });
     await this.cart.click();
 }
 
